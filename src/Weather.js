@@ -7,10 +7,8 @@ return (
     <div> 
   <h1>
   <i className="fas fa-cloud">⛈️</i>
-  </h1>
-  <h2>
    20°C/F
-  </h2>
+   </h1>
   <span>WindSpeed:10km/h:</span>
   <span>Humidity: 3%</span>
   <p>

@@ -1,8 +1,8 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    padding-left: 40px ;
-    padding-right: 40px;
-    padding-top:40px;
+    padding-left: 100px ;
+    padding-right: 100px;
+    padding-top:100px;
     text-align: center;
     line-height: 10px;
     background: linear-gradient(220deg, rgb(238, 142, 230) 13.2%, rgb(167, 229, 243) 65%)}

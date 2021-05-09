@@ -3,10 +3,14 @@ body {
     padding-left: 40px ;
     padding-right: 40px;
     padding-top:40px;
-    padding-bottom: 40px;
     text-align: center;
     line-height: 10px;
     background: linear-gradient(220deg, rgb(238, 142, 230) 13.2%, rgb(167, 229, 243) 65%)}
 
                
 
+h2 {
+    font-size: 20px;
+    padding-bottom: 40px;
+
+}

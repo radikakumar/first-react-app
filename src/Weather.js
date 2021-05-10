@@ -11,6 +11,7 @@ return (
    </h1>
   <span>WindSpeed:10km/h:</span>
   <span>Humidity: 3%</span>
+  
   <p>
 <span>Date:Tuesday 10 May 2021 </span>
 <span> Time: 21:00 hrs</span>

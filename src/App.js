@@ -8,6 +8,8 @@ export default function App() {
           </div>
       <div className= "DictionaryApp">
      📔 Dictionary App
+     <p className= "Instructions"><strong>Note: Enter word and press #, e.g "sunset#"</strong>
+     </p>
       </div>
       <main>
         <Dictionary />

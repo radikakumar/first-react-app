@@ -26,8 +26,7 @@ axios.get(url).then(handleResponse);
     <input type= "Search" onChange={updateChange}/>
     </form>
     <Results content={Content} />
-    <p className= "Instructions"><em>Note: Enter word and press #, e.g "sunset#"</em>
-     </p>
+    
     </div>
 );
 

@@ -3,7 +3,7 @@ import axios from "axios";
 import Results from "./Results";
 export default function Dictionary() {
 let [Keyword, setKeyword] = useState("");
-let [Content, setContent] = useState("");
+let [Content, setContent] = useState(null);
 function handleSubmit(event){
     event.preventDefault();
    
@@ -26,7 +26,7 @@ axios.get(url).then(handleResponse);
     <input type= "Search" onChange={updateChange}/>
     </form>
     <Results content={Content} />
-    
+   
     </div>
 );
 

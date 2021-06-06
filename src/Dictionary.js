@@ -3,7 +3,7 @@ import axios from "axios";
 import Results from "./Results";
 export default function Dictionary() {
 let [Keyword, setKeyword] = useState("");
-let [Content, setContent] = useState(null);
+let [Content, setContent] = useState("");
 function handleSubmit(event){
     event.preventDefault();
    

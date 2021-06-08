@@ -1,10 +1,13 @@
 import React from "react";
 import Phonetic from "./Phonetic";
 import Meaning from "./Meaning";
+import "./Results.css"
+
 
 export default function Results(props) {
   if (props.content) {
     return (
+        <section>
       <div className="Results">
         <h2>{props.content.word}</h2>
         {props.content.phonetics.map(function (phonetic, index) {
@@ -22,6 +25,7 @@ export default function Results(props) {
           );
         })}
       </div>
+      </section>
     );
   } else {
     return null;

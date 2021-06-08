@@ -7,9 +7,8 @@ export default function App() {
         <div className="Container">
           </div>
       <div className= "DictionaryApp">
-     📔 Dictionary App
-     <p className= "Instructions"><strong>Note: Enter word and press #, e.g "sunset#"</strong>
-     </p>
+     📘Dictionary App
+     
       </div>
       <main>
         <Dictionary />
